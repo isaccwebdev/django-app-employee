@@ -22,7 +22,8 @@ THIRDS_PARTY_APPS = [
     
 ]
 CORE_APPS = [
-    
+   'applications.departamento',
+   'applications.empleados'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRDS_PARTY_APPS + CORE_APPS
